@@ -467,6 +467,8 @@ declare module 'react-native-gesture-handler/Swipeable' {
       progressAnimatedValue: Animated.Value | Animated.AnimatedInterpolation,
       dragAnimatedValue: Animated.AnimatedInterpolation
     ) => React.ReactNode;
+    containerStyle?: StyleProp<ViewStyle>;
+    childrenContainerStyle?: StyleProp<ViewStyle>;
     useNativeAnimations?: boolean;
   }
 
